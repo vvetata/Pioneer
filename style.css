@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.link {
+    color: #607CE6;
+    text-decoration: none;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.container {
+
+}
+
+.header {
+display: block;
+margin: 32px 130px 40px;
+
+}
+
+.h-flex-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    
+    width: 180px;
+    
+}
+
+.email {
+  width: 280px;
+  height: 45px;
+  text-align: right;
+
+}
+
+.call {
+  width: 180px;
+  height: 45px;
+  text-align: right;
+}
+
+h3 {
+margin: 0;
+padding: 0;
+font-family: "Source Sans 3";
+font-weight: 400;
+font-size: 14px;
+
+}
+
+h4 {
+ margin: 0;
+ padding: 0;
+ font-family: "Source Sans 3";
+ font-size: 20px;
+}
+
+.line {
+    height: 1px;
+
+    background-color: gray;
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.h-flex-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 951px;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.call-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-text {
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 16px;
+    color: #607CE6;
+}
+
+.call-img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.hero {
+    margin: 80px 130px;
+}
+
+.hero-h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #333;
+    margin: 0 20px 0 0;
+    width: 580px;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 32px;
+}
+
+.hero-text {
+    width: 379px;
+}
+
+.about {
+    margin: 80px 130px;
+}
+
+.column-count {
+    column-count: 2;
+    column-width: 580px;
+    margin: 32px 0;
+}
+
+.about p {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.b-i-avoid {
+    break-inside: avoid;
+}
+
+.about-img {
+    width: 580px;
+    height: 280px;
+}
+
+.m-20 {
+    margin-right: 20px;
+}
+
+.about-h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+}
+
+.products {
+    margin: 80px 130px;
+}
+
+.flex-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.card {
+    width: 380px;
+    height: 435px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+.p-img {
+  width: 200px;
+  object-fit: cover;
+  position: relative;
+  top: 32px;
+  left: 24px;
+  
+}
+
+.p-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    }
+
+.p-text {
+    margin-bottom: 37px;
+    margin-left: 24px;
+}
+
+.map {
+    margin: 80px 130px;
+}
+
+.news {
+    margin: 80px 130px;
+}
+
+.n-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-news {
+    width: 380px;
+    height: 478px;
+}
+
+.n-img {
+    width: 380px;
+    height: 251px;
+    display: block;
+}
+
+.n-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    height: 227px;
+}
+
+.n-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.n-title {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin: 16px;
+}
+
+.date {
+    font-size: 16px;
+    color: #888;
+}
+
+.footer {
+    background-color: #333;
+    height: 361px;
+    padding: 1px;
+}
+
+.f-top {
+    margin: 56px 155px;
+    display: flex;
+    
+}
+
+.f-left {
+    width: 720px;
+    display: flex;
+}
+
+.f-logo {
+    width: 180px;
+    height: 38px;
+}
+
+.f-right {
+    display: flex;
+    width: 720px;
+    justify-content: space-between;
+}
+
+.f-nav {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    gap: 24px;
+
+}
+
+.f-nav a {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.f-bottom p {
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+}
